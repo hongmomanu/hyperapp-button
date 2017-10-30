@@ -1,0 +1,24 @@
+{
+  "name": "hyperapp-button",
+  "version": "1.0.0",
+  "description": "hyperapp button ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongmomanu/hyperapp-button.git"
+  },
+  "keywords": [
+    "hyperapp.js",
+    "hyperapp",
+    "button"
+  ],
+  "author": "广陵大琴渣",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hongmomanu/hyperapp-button/issues"
+  },
+  "homepage": "https://github.com/hongmomanu/hyperapp-button#readme"
+}
