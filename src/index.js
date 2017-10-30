@@ -1,7 +1,7 @@
 import { h, app } from "hyperapp";
 import picostyle from "picostyle";
 const style = picostyle(h);
-const Div = style("div")(({stys:{width, height, color,bcolor,hcolor,hbcolor}}) => ({
+const Div = style("div")(({stys:{width, height, color,bcolor,hcolor,hbcolor,radius}}) => ({
     width: `${width||100}px`,
     display: 'flex',
     backgroundColor: `${bcolor||'lightgrey'}`,
@@ -10,7 +10,7 @@ const Div = style("div")(({stys:{width, height, color,bcolor,hcolor,hbcolor}}) =
     color: `${color||'black'}`,
     justifyContent: 'center',
     alignItems: 'center',
-    borderRadius: '10px',
+    borderRadius: `${radius||8}px`,
     userSelect: 'none',
     ":hover":{
       backgroundColor:`${hbcolor||"red"}`,
