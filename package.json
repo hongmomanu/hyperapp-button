@@ -15,6 +15,10 @@
     "hyperapp",
     "button"
   ],
+  "peerDependencies": {
+    "hyperapp": "^0.15.1",
+    "picostyle": "^0.1.7"
+  },
   "author": "广陵大琴渣",
   "license": "ISC",
   "bugs": {
