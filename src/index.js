@@ -32,9 +32,10 @@ const Text = style("div")(()=>({
   flex:1
 }))
 
-export const Button = ({stys={}, val, click }) => (
+export const  Button = ({stys={}, val, click }) => (
   <Div stys={stys} onclick={e => click(e)}>
     <Text>{(stys && stys.imgsrc)?<Icon src={stys.imgsrc} /> : ''}{val}</Text>
     
   </Div>
 );
+

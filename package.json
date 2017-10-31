@@ -1,6 +1,6 @@
 {
   "name": "hyperapp-button",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "hyperapp button ",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,9 @@
     "hyperapp.js",
     "hyperapp",
     "button"
+  ],
+  "files": [
+    "src"
   ],
   "peerDependencies": {
     "hyperapp": "^0.12.0",
