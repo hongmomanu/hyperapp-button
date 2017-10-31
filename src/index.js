@@ -1,9 +1,10 @@
 import { h, app } from "hyperapp";
 import picostyle from "picostyle";
 const style = picostyle(h);
-const Div = style("div")(({stys:{width, height, color,bcolor,hcolor,hbcolor,radius}}) => ({
+const Div = style("div")(({stys:{width, height, color,bcolor,hcolor,hbcolor,radius, imgsrc}}) => ({
     width: `${width||100}px`,
     display: 'flex',
+    flexDirection: 'row',
     backgroundColor: `${bcolor||'lightgrey'}`,
     cursor: 'pointer',
     height: `${height||30}px`,
@@ -18,9 +19,22 @@ const Div = style("div")(({stys:{width, height, color,bcolor,hcolor,hbcolor,radi
     }
     
 }));
+const Icon = style("img")(({src}) => ({
+  //position: 'absolute',
+  width:'20px',
 
-export const Button = ({stys, val, click }) => (
+
+}) )
+const Text = style("div")(()=>({
+  display:'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  flex:1
+}))
+
+export const Button = ({stys={}, val, click }) => (
   <Div stys={stys} onclick={e => click(e)}>
-    {val}
+    <Text>{(stys && stys.imgsrc)?<Icon src={stys.imgsrc} /> : ''}{val}</Text>
+    
   </Div>
 );
