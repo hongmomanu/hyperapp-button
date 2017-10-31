@@ -1,6 +1,6 @@
 {
   "name": "hyperapp-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "hyperapp button ",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,8 @@
     "button"
   ],
   "peerDependencies": {
-    "hyperapp": "^0.15.1",
-    "picostyle": "^0.1.7"
+    "hyperapp": "^0.12.0",
+    "picostyle": "0.1.5"
   },
   "author": "广陵大琴渣",
   "license": "ISC",
