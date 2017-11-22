@@ -20,8 +20,7 @@
     "src"
   ],
   "peerDependencies": {
-    "hyperapp": "^0.12.0",
-    "picostyle": "0.1.5"
+    "hyperapp": "^0.16.0"
   },
   "author": "广陵大琴渣",
   "license": "ISC",
